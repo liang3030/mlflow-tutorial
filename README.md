@@ -8,7 +8,7 @@ It is a tutorial for understanding MLFlow
    - setup environment with conda `conda create -p venv python==3.12 -y`.Creating a new environment allows you to isolate and manage dependencies for different projects or workflows. You can then install packages into this environment without affecting other environments or the system-wide Python installation.
    - activate environment. `conda activate venv/`
    - create a txt file in the project folder called `requirement.txt`
-   - install mlflow with pip `pip install -r requirement.txt`. When add new dependencies, it should consider to use non-cache installation `cpip install --no-cache-dir -r requirement.txt`
+   - install mlflow with pip `pip install -r requirement.txt`. When add new dependencies, it should consider to use non-cache installation `pip install --no-cache-dir -r requirement.txt`
 
 ### Deploy to dagshub
 
